@@ -1,5 +1,14 @@
 # Redis
 
+## Running Redis
+
+```sh
+docker run -d --name redis-stack -p 6379:6379 -p 8001:8001 redis/redis-stack:latest
+```
+
+- Server Port: 6379
+- Redis Insight Port: 8001
+
 ## Main Features
 
 - Get/Set with expiration
