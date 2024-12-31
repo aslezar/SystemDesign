@@ -1,7 +1,7 @@
 # System Design
 
 ## Reference Articles
-- [x] [System Design for Beginners - Complete Guide](https://medium.com/@shivambhadani_/system-design-for-beginners-everything-you-need-in-one-article-c74eb702540b)
+- [System Design for Beginners - Complete Guide](https://medium.com/@shivambhadani_/system-design-for-beginners-everything-you-need-in-one-article-c74eb702540b)
 
 ## Learning Tasks
 
