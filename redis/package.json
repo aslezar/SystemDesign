@@ -1,0 +1,11 @@
+{
+  "name": "redis",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "ioredis": "^5.4.2",
+    "nodemon": "^3.1.9"
+  }
+}
