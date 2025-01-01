@@ -1,4 +1,5 @@
 # Kafka
+A distributed streaming platform
 
 ## Run Zookeeper
 Zookeeper is depracted, kafka has now K-raft in-built
