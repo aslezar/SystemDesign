@@ -15,7 +15,7 @@
 - [x] Redis Cache implementation
 - [ ] RabbitMQ Message Queue
 - [x] Redis Pub/Sub patterns
-- [ ] Apache Kafka
+- [x] Apache Kafka
 
 ### Additional Topics
 - [ ] Leader Election Algorithms
