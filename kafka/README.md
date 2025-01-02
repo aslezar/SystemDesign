@@ -1,5 +1,6 @@
 # Kafka
 A distributed streaming platform
+It uses Binary protocol over TCP Connection.
 
 ## Run Zookeeper
 Zookeeper is depracted, kafka has now K-raft in-built
