@@ -13,7 +13,7 @@
 
 ### Caching & Messaging
 - [x] Redis Cache implementation
-- [ ] RabbitMQ Message Queue
+- [x] RabbitMQ Message Queue
 - [x] Redis Pub/Sub patterns
 - [x] Apache Kafka
 
