@@ -10,6 +10,8 @@
 docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:4.0-management-alpine
 ```
 
+RabbitMq Management can be accessed at [localhost:15672](http://localhost:15672)
+
 ## RabbitMQ Architecture
 
 ![RabbitMQ Architecture](image.png)
