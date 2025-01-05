@@ -34,12 +34,28 @@
 - [ ] vim
 - [ ] tmux
 - [ ] Prometheus
+- [ ] Datadog
 
 ## Tools and Languages
 
 ### Erlang
 
-- Build for distributed, scalable system
-- run on philoshphy "lets it fails", this means instead of preventing error it let them occur and quickly recover from them.
+- Build for distributed, scalable systems
+- Runs on the philosophy "let it fail", which means instead of preventing errors, it lets them occur and quickly recovers from them.
 - ejabberd -> real-time messaging system server
-- Used by Whatsapp
+- Used by WhatsApp
+
+## Strategies
+
+
+1. SuperDisk Strategy used by Discord, a combination of local SSD and persistent disk [ref](https://youtu.be/S2xmFOAUhsk?feature=shared&t=869)
+![alt text](image.png){ width=50% }
+
+2. [Building Models with Patterns - A Summary](https://www.mongodb.com/blog/post/building-with-patterns-a-summary)
+
+    ESR-Rule: For a compound index to work efficiently, fields must be defined in the order:
+    - E: Equality Fields which values match exactly
+    - S: Sort Fields which decide the order
+    - R: Range Fields on which range operations like greater than are performed
+
+3. [Optimize Query - Mongodb explain command](https://www.mongodb.com/docs/manual/reference/method/cursor.explain/)
